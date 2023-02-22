@@ -8,7 +8,7 @@ Original demo located at [ultimate-hitboxes.com](ultimate-hitboxes.com).
 
 ### Docker
 
-`docker build .`
+`docker build --tag bsultana75/ulthit_backend .`
 
 ### NPM
 
