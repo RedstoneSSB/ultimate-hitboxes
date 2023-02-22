@@ -1,0 +1,33 @@
+# TODO: Check RSN-Bran's user page for usernames/links & prefer if available.
+#   let's not monetize their project w/o consent & first priority.
+
+# --- Single User --- 
+# TODO: Make missing accounts
+patreon:          RedstoneSSB  # Single Patreon username
+open_collective:  RedstoneSSB  # Single Open Collective username
+ko_fi:            RedstoneSSB  # Single Ko-fi username
+liberapay:        RedstoneSSB
+issuehunt:        RedstoneSSB
+otechie:          RedstoneSSB
+
+
+# --- Empty ---
+community_bridge:
+
+# Single Tidelift platform-name/package-name e.g., npm/babel
+tidelift:
+
+# Single LFX Crowdfunding project-name e.g., cloud-foundry
+lfx_crowdfunding:
+
+
+# --- Multiple Items ---
+
+# Up to 4 GitHub Sponsors-enabled usernames
+github: 
+- RSN-Bran
+- RedstoneSSB
+
+# Up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+custom: 
+- 'redstone.pw/donate'
