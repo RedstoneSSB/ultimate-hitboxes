@@ -1,0 +1,19 @@
+name: Docker Image CI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build-backend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the backend Docker image
+      run: docker build . --file server/Dockerfile --tag ultimate-hitboxes-backend:$(date +%s)
+  build-backend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the frontend Docker image
+      run: docker build . --file frontend/Dockerfile --tag ultimate-hitboxes-frontend:$(date +%s)
