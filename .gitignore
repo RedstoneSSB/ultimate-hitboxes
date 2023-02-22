@@ -11,3 +11,4 @@ frontend/.babelrc
 dbtest
 compose-dev.yml
 compose-prod.yml
+**/*.log
