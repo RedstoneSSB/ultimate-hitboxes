@@ -29,5 +29,6 @@ github:
 - RedstoneSSB
 
 # Up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
-custom: 
-- 'redstone.pw/donate'
+custom:
+- https://www.paypal.com/donate?token=_Jt2XH2TkdaPxX8hD1ymYj06G0wv2-yLNQC5w8Dh549KTIsVnUdZU6006tmBxVuHgMpuVHFgGFwRK48G
+- redstone.pw/donate?proj=ultimate-hitboxes
